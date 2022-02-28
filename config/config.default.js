@@ -18,5 +18,5 @@ exports.news = {
 exports.middleware = ['robot'];
 // robot's configurations
 exports.robot = {
-    ua: [/Baiduspider/i],
+    ua: [/curl/i, /Baiduspider/i],
 };
